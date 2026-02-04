@@ -148,3 +148,32 @@ main {
 .localizacao::after {
     content: "  -------------------";
 }
+
+/* Media Query for Smartphones and Tablets (screen up to 768px) */
+@media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: 1px solid red !important; /* temporary command: delete before push */
+    }
+
+    .links {
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+}
