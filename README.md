@@ -40,4 +40,4 @@ Responsive and clean, built with HTML and CSS.
 The source code is available in this repository for companies and clients interested in checking the implementation.
 
 ## License
-MIT License © 2026 Erickson da Silva
+MIT License © 2026 Erickson Cândido da Silva
