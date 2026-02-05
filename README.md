@@ -18,3 +18,26 @@ O código-fonte está disponível neste repositório para empresas e clientes in
 
 ## Licença
 MIT License © 2026 Erickson Cândido da Silva
+
+---
+
+# Erickson Cândido da Silva - Portfolio
+
+My personal portfolio, a landing page to showcase my projects and skills.
+
+## Demo
+Check the live version of the portfolio: [https://erickson-dev.vercel.app](https://erickson-dev.vercel.app)
+
+## Description
+Personal landing page to showcase my front-end projects.  
+Responsive and clean, built with HTML and CSS.
+
+## Technologies
+- HTML5  
+- CSS3 (including media queries for responsiveness)  
+
+## Code
+The source code is available in this repository for companies and clients interested in checking the implementation.
+
+## License
+MIT License © 2026 Erickson da Silva
