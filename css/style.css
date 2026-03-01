@@ -39,8 +39,15 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
+.links a:hover {
+    color: #f0f0f0;
+    text-decoration-color: #039930;
+    transform: translateY(-8px);
+    box-shadow: 0 2px 0px #039930;
+}
 
 /* Texto */
 h1 {
