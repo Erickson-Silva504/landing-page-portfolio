@@ -8,13 +8,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #002147;
-    background-image: radial-gradient(circle, #004466, #000435)
+    background-image: radial-gradient(circle, #0177b3, #000435)
 }
 
 /* TODO: Arrumar Logo para Pagina Inicial */
 /* Estilo do Cabeçalho */
 header {
-    background-color: #023859;
+    background-color: #011b2b;
     text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -149,8 +149,80 @@ main {
     content: "  -------------------";
 }
 
+
+/* Cards */
+
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    width: 180px;
+    padding: 25px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 3.0s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* efeito hover */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card.html:hover {
+    border-left: 5px solid #e44d26; /* HTML laranja */
+    box-shadow: 0 0 10px #e44d26;
+}
+
+.card.css:hover {
+    border-left: 5px solid #264de4; /* CSS azul */
+    box-shadow: 0 0 10px #264de4;
+}
+
+.card.js:hover {
+    border-left: 5px solid #f0db4f; /* JS amarelo */
+    box-shadow: 0 0 10px #f0db4f;
+}
+
+.card.git:hover {
+    border-left: 5px solid #f34f29; /* Git laranja */
+    box-shadow: 0 0 10px #f34f29;
+}
+
+.card.chrome:hover {
+    border-left: 5px solid #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.card.vercel:hover {
+    border-left: 5px solid #000;
+    box-shadow: 0 0 10px #000;
+}
+
+
 /* Media Query for Smartphones and Tablets (screen up to 768px) */
-@media screen and (max-width: 768px) {
+@media (max-width: 600px) {
 
     * {
         margin: 0;
@@ -175,5 +247,18 @@ main {
 
     h3 {
         font-size: 15px;
+    }
+
+    .card {
+        width: 140px;
+        padding: 20px 10px;
+    }
+
+    .card img {
+        width: 50px;
+    }
+
+    .card h3 {
+        font-size: 16px;
     }
 }
