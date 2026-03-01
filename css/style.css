@@ -7,14 +7,22 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #002147;
-    background-image: radial-gradient(circle, #0177b3, #000435)
+    background-color: #0f172a;
+    background: radial-gradient(circle at center, #122441 0%, #0b1222 100%);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
-/* TODO: Arrumar Logo para Pagina Inicial */
+body.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
 /* Estilo do Cabeçalho */
 header {
-    background-color: #011b2b;
+    background-color: #101518;
+    border-bottom: 3px solid #2d3747;
     text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +44,7 @@ header {
 
 /* Texto */
 h1 {
-    color: #d2b48c;
+    color: #f0f0f0;
     text-shadow: 6px 6px 4px #000;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -44,19 +52,19 @@ h1 {
 }
 
 h2 {
-    color: #d2b48c;
+    color: #e0e0e0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
     font-size: 20px;
 }
 
 h3 {
-    color: #d2b48c;
+    color: #e0e0e0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
-    color: #d2b48c;
+    color: #e0e0e0;
     font-size: 21px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
@@ -65,7 +73,7 @@ p {
 
 /* Listas */
 ul {
-    color: #d2b48c;
+    color: #e0e0e0;
 }
 
 /* Links */
@@ -117,12 +125,19 @@ main {
 }
 
 .botao_contato {
-    background-color: #023859;
-    box-shadow: 8px 8px 4px #000;
+    background-color: #02591c;
     padding: 10px;
     font-size: 15px;
     border-radius: 12px;
     text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: transform 3.0s ease, box-shadow 0.3s ease;
+}
+
+.botao_contato:hover {
+    background-color: #046e24;
+    box-shadow: 0px 5px 5px #000;
 }
 
 /* Página Sobre */
@@ -170,7 +185,7 @@ main {
     width: 180px;
     padding: 25px 15px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px #0000001a;
     transition: transform 3.0s ease, box-shadow 0.3s ease;
 }
 
