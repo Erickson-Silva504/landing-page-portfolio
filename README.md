@@ -22,6 +22,8 @@ Responsiva, limpa e organizada, desenvolvida com HTML e CSS.
 ## 💻 Código
 O código-fonte está disponível neste repositório para empresas e clientes interessados em conferir a implementação.
 
+---
+
 © Erickson Cândido da Silva. Todos os direitos reservados. Proibida a cópia ou distribuição sem autorização.
 ---
 
