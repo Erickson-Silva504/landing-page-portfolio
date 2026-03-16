@@ -22,10 +22,13 @@ Responsiva, limpa e organizada, desenvolvida com HTML e CSS.
 ## 💻 Código
 O código-fonte está disponível neste repositório para empresas e clientes interessados em conferir a implementação.
 
----
+
 
 © Erickson Cândido da Silva. Todos os direitos reservados. Proibida a cópia ou distribuição sem autorização.
+
+
 ---
+
 
 # Erickson da Silva - Portfolio 🚀
 
@@ -50,5 +53,7 @@ Responsive, clean and organized, built with HTML and CSS.
 
 ## 💻 Code
 The source code is available in this repository for companies and clients interested in checking the implementation.
+
+
 
 © Erickson Candido da Silva. All rights reserved. Copying or distribution without authorization is prohibited.
