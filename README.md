@@ -17,7 +17,8 @@ Responsiva, limpa e organizada, desenvolvida com HTML e CSS.
 
 ## 🛠 Tecnologias
 - HTML5  
-- CSS3 (incluindo media queries para responsividade)  
+- CSS3
+- JavaScript  
 
 ## 💻 Código
 O código-fonte está disponível neste repositório para empresas e clientes interessados em conferir a implementação.
