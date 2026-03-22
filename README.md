@@ -17,15 +17,19 @@ Responsiva, limpa e organizada, desenvolvida com HTML e CSS.
 
 ## 🛠 Tecnologias
 - HTML5  
-- CSS3 (incluindo media queries para responsividade)  
+- CSS3
+- JavaScript  
 
 ## 💻 Código
 O código-fonte está disponível neste repositório para empresas e clientes interessados em conferir a implementação.
 
-## ⚖️ Licença
-MIT License © 2026 Erickson Cândido da Silva
+
+
+© Erickson Cândido da Silva. Todos os direitos reservados. Proibida a cópia ou distribuição sem autorização.
+
 
 ---
+
 
 # Erickson da Silva - Portfolio 🚀
 
@@ -51,5 +55,6 @@ Responsive, clean and organized, built with HTML and CSS.
 ## 💻 Code
 The source code is available in this repository for companies and clients interested in checking the implementation.
 
-## ⚖️ License
-MIT License © 2026 Erickson Cândido da Silva
+
+
+© Erickson Candido da Silva. All rights reserved. Copying or distribution without authorization is prohibited.
