@@ -126,6 +126,7 @@ header {
 
 .foto-verso {
     transform: rotateY(180deg);
+    object-position: center 5%;
 }
 
 :root {
@@ -311,7 +312,7 @@ header {
 }
 
 
-/* Media Query for Smartphones and Tablets (screen up to 600px) */
+/* ========== Media Query for Smartphones and Tablets (screen up to 600px) ========== */
 @media (max-width: 600px) {
 
     * {

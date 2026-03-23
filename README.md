@@ -23,8 +23,6 @@ Responsiva, limpa e organizada, desenvolvida com HTML e CSS.
 ## 💻 Código
 O código-fonte está disponível neste repositório para empresas e clientes interessados em conferir a implementação.
 
-
-
 © Erickson Cândido da Silva. Todos os direitos reservados. Proibida a cópia ou distribuição sem autorização.
 
 
@@ -50,11 +48,10 @@ Responsive, clean and organized, built with HTML and CSS.
 
 ## 🛠 Technologies
 - HTML5  
-- CSS3 (including media queries for responsiveness)  
+- CSS3
+- JavaScript 
 
 ## 💻 Code
 The source code is available in this repository for companies and clients interested in checking the implementation.
-
-
 
 © Erickson Candido da Silva. All rights reserved. Copying or distribution without authorization is prohibited.
