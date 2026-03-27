@@ -312,7 +312,7 @@ header {
 }
 
 
-/* ========== Media Query for Smartphones and Tablets (screen up to 600px) ========== */
+/*! ========== Media Query for Smartphones and Tablets (screen up to 600px) ========== */
 @media (max-width: 600px) {
 
     * {

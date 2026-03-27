@@ -6,6 +6,10 @@ Meu portfólio pessoal, uma landing page para apresentar meus projetos e habilid
 ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Responsivo](https://img.shields.io/badge/Responsivo-yes-green?style=for-the-badge)
 
+<p align="center">
+    <img src="assets/homepage.png" width="700">
+</p>
+
 ---
 
 ## 🔗 Demo
