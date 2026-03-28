@@ -92,7 +92,7 @@ header {
 
 
 
-/* ========== Skills Styles ========== */
+/* ========== Homepage Styles ========== */
 .foto-container {
     width: 450px;
     height: 450px;
@@ -156,7 +156,7 @@ header {
     width: 50%;
 }
 
-.botao_contato {
+.button_contato, .button_servicos {
     background-color: #02591c;
     padding: 10px;
     font-size: 15px;
@@ -167,11 +167,21 @@ header {
     transition: transform 3.0s ease, box-shadow 0.3s ease;
 }
 
-.botao_contato:hover {
+.button_contato:hover {
     background-color: #046e24;
     box-shadow: 0px 5px 5px #000;
 }
 
+.button_servicos:hover {
+    background-color: #046e24;
+    box-shadow: 0px 5px 5px #000;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
 
 
 /* ========== About Styles ========== */
@@ -224,7 +234,98 @@ header {
     width: 100%;
 }
 
+/* ========== Services Styles ========== */
 
+.layout-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.icon-box {
+    width: 48px;
+    height: 48px;
+    background: rgba(34, 197, 94, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    background-color:#111827;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9ca3af;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.service-card h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.service-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-card li {
+    color: #9ca3af;
+    margin-bottom: 8px;
+}
+
+.cta {
+    margin-top: 80px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.btn {
+    background: #02591c;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #046e24;
+}
 
 /* ========== Cards ========== */
 .cards-container {
